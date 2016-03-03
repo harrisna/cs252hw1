@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "hcompress.h"
+
 int main(int argc, char* argv[]) {
 	
 	// check to make sure the input parameters are correct
@@ -22,4 +28,20 @@ int main(int argc, char* argv[]) {
 		decodeFile(argv[2], treeRoot);
 	}
 	return 0;
+}
+
+struct tnode* createFreqTable(char* filename) {
+	return NULL;
+}
+
+struct tnode* createHuffmanTree(struct tnode* list) {
+	return NULL;
+}
+
+void encodeFile(char* filename, struct tnode* tree) {
+
+}
+
+void decodeFile(char* filename, struct tnode* tree) {
+
 }
